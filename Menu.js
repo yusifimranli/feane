@@ -62,7 +62,7 @@
     for (const key of AllMenu) {
         let menu = key
         menuList.innerHTML += `
-        <div class="bg-[#222831] w-1/4 mt-30 text-white rounded-xl">
+        <div class="bg-[#222831] sm:w-1/4 mt-30 text-white rounded-xl">
             <div class="bg-gray-100 rounded-xl h-60  flex items-center justify-center">
             <img class="w-32 h-32 mx-auto " src="${menu.img}" alt="">
             </div>
@@ -75,4 +75,5 @@
         </div>
        
         `
+
     }
