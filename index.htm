@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- mobil-menu -->
+        <div class="mobil-menu sm:hidden  text-white flex items-center justify-between p-4">
+            <a class="text-2xl font-serif" href="">Feane</a>
+            <i onclick="openmenu()" class="text-3xl fa-solid fa-bars"></i>
+        </div>
+        <div class="bg-[#0C0C0C] text-white fixed w-full  mt-14" id="menubar" style="top: -100%">
+            <menu class="flex flex-col gap-4 text-center">
+                <li><a href="" class="text-[#FFBE33]">HOME</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BOOK TABLE</a></li>
+            </menu>
+            <div class="mx-auto pt-3 flex  items-center justify-center gap-4">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>   
+                <button class="bg-[#FFBE33] p-2 w-36 rounded-3xl">Order-Online</button>
+            </div>
+        </div>
+        <!-- desktop-menu -->
+        <div class="desktop-menu text-white hidden sm:flex items-center justify-between p-6 px-16 mx-auto">
+            <a class="text-2xl font-serif" href="">Feane</a>
+            <menu class="flex items-center gap-8 pl-34">
+                <li><a href="" class="text-[#FFBE33]">HOME</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BOOK TABLE</a></li>
+            </menu>
+            <div class="flex items-center gap-5">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>   
+                <button class="bg-[#FFBE33] p-2 w-36 rounded-3xl">Order-Online</button>
+            </div>
+        </div>
+
+        <div class="sm:w-[45%] sm:px-16 text-white mt-30 px-2">
+            <h1 class="text-4xl">Fast Food Restaurant</h1>
+            <p class="py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias architecto accusantium culpa aliquam ut officiis non, debitis qui ullam corporis veritatis maiores animi recusandae at voluptate nam cum!</p>
+            <button class="bg-[#FFBE33] p-2 w-36 rounded-3xl">Order-Online</button>
+        </div>
+    </header>
+    <main>
+        <div id="mealList" class="sm:flex">
+        <!-- <div class="bg-gray-900 mt-20 rounded-sm text-white text-center mx-auto"> 
+            <div class="pt-6">
+            <img src="img/o1.jpg" alt="" class="mx-auto  w-40 h-40 rounded-full border-4 border-amber-300">
+            <h2 class="text-2xl py-4">Tasty Thursday</h2>
+            </div>
+            <h1 class="text-3xl">20% Off</h1>
+            <button class="bg-[#FFBE33] p-2 w-36 rounded-3xl my-4">Order-Now</button>
+        </div> -->
+        </div>
+
+        <div id="menuList"  class="sm:flex flex-wrap items-center justify-center sm:gap-14 sm:px-10">
+        <!-- <div class="bg-[#222831] mt-30 text-white">
+            <div class="bg-gray-100 h-60  flex items-center justify-center">
+            <img class="w-32 h-32 mx-auto " src="https://themewagon.github.io/feane/images/f1.png" alt="">
+            </div>
+            <h1 class="p-4 font-medium text-2xl">Delicious Pizza</h1>
+            <h2 class="px-4 text-[17px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique cumque hic nemo corrupti dolorum.</h2>
+            <div class="flex items-center justify-between px-4 text-xl">
+            <p>$20</p>
+            <button class="bg-[#FFBE33] rounded-full text-white w-10 h-10 border-amber-500"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div> -->
+        </div>
+
+    </main>
+    <script src="App.js"></script>
+    <script src="Menu.js"></script>
+    <script src="class.js"></script>
+
+</body>
+</html>

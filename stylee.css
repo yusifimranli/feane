@@ -1,0 +1,7 @@
+header{
+    background: url("img/hero-bg.jpg") center/cover;
+    height: 100vh;
+}
+.openmenu{
+    transition: .3s ease-in-out;
+}
