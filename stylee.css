@@ -5,3 +5,13 @@ header{
 .openmenu{
     transition: .3s ease-in-out;
 }
+
+.fixedheader{
+    position: fixed;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    width: 100%;
+    transition: .3s ease;
+    background: #0C0C0C;
+    top: 0;
+    left: 0;
+}
